@@ -1,0 +1,53 @@
+h1.germany-title {
+    grid-area: about;
+    padding: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.germany-gallery {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+div.germany-gallery > figure:nth-child(3n+1) {
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+div.germany-gallery > figure:nth-child(3n+2) {
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+div.germany-gallery > figure:nth-child(3n+3) {
+    border: 5px solid #FACB0F;
+    border-radius: 15px;
+}
+
+.germany-gallery > figure img {
+    width: 100%;
+    padding: 20px;
+}
+
+@media(max-width: 768px) {
+    h1.germany-title {
+        font-size: 2rem;
+    }
+
+    div.germany-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 576px) {
+    div.germany-gallery {
+        grid-template-columns: 1fr;
+    }
+}

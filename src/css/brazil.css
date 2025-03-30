@@ -1,0 +1,49 @@
+h1.brazil-title {
+    grid-area: about;
+    padding: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.brazil-gallery {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+div.brazil-gallery > figure:nth-child(3n+1) {
+    border: 5px solid #FACB0F;
+    border-radius: 15px;
+}
+
+div.brazil-gallery > figure:nth-child(3n+2) {
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+div.brazil-gallery > figure:nth-child(3n+3) {
+    border: 5px solid green;
+    border-radius: 15px;
+}
+
+.brazil-gallery > figure img {
+    width: 100%;
+    padding: 20px;
+}
+
+@media(max-width: 768px) {
+    h1.brazil-title {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 576px) {
+    div.brazil-gallery {
+        grid-template-columns: 1fr;
+    }
+}
