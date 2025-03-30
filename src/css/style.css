@@ -235,7 +235,7 @@ a.text-link {
         font-size: 1rem;
     }
 
-    section div .gallery-description h3 {
+    div div.gallery-description h3 {
         font-size: 2rem;
     }
 
@@ -272,7 +272,7 @@ a.text-link {
         font-size: 2rem;
     }
 
-    section.gallery {
+    div.gallery {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
     }
