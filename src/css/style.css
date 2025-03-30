@@ -197,7 +197,7 @@ footer .social i:hover {
 }
 
 a.text-link {
-    color: #FACB0F;
+    color: red;
 }
 
 @media(max-width: 1200px) {
