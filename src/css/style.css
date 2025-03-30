@@ -86,7 +86,7 @@ body {
     text-align: center;
 }
 
-section.about {
+div.about {
     grid-area: about;
     display: grid;
     background-color: #fff;
@@ -111,7 +111,7 @@ div.about-content p {
     font-size: 1.125rem;
 }
 
-section.gallery {
+div.gallery {
     display: grid;
     grid-area: gallery;
     grid-template-columns: 1fr 1fr;
