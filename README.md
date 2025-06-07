@@ -20,7 +20,7 @@
   ✅ <strong>Box model styling</strong> applied to images (<code>border</code>, <code>padding</code>, <code>border-radius</code>).
 </p>
 <p>
-  ✅ <code>Valid HTML & CSS</code>, ensuring compliance with accessibility standards.
+  ✅ <strong>Valid HTML & CSS</strong>, ensuring compliance with accessibility standards.
 </p>
 <h2>Technologies Used 🛠️</h2>
 <p>
